@@ -1,0 +1,29 @@
+{
+  "basic syntax  for makestyles": {
+    "prefix": "makeStyles",
+    "body": [
+      "import { makeStyles } from '@material-ui/styles'",
+      "const useStyles = makeStyles(theme => ({",
+      "",
+      "}))",
+      "const classes = useStyles();",
+      ""
+    ],
+    "description": "basic syntax  for makestyles"
+  },
+  "basic syntax  for grid item ": {
+    "prefix": "gridItem",
+    "body": ["<Grid item>", "", "</Grid>"],
+    "description": "basic syntax  for grid item "
+  },
+  "basic syntax  for grid container row": {
+    "prefix": "gridContainerRow",
+    "body": ["<Grid container direction=\"row\" >", "", "</Grid>"],
+    "description": "basic syntax  for grid container row"
+  },
+  "basic syntax  for grid container column": {
+    "prefix": "gridContainerColumn",
+    "body": ["<Grid container direction=\"column\" >", "", "</Grid>"],
+    "description": "basic syntax  for grid container row"
+  }
+}
